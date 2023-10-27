@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/EUrban/static/css/main.073c9b0a.css",
+    "main.js": "/EUrban/static/js/main.a239f640.js",
+    "static/js/787.87036bbc.chunk.js": "/EUrban/static/js/787.87036bbc.chunk.js",
+    "service-worker.js": "/EUrban/service-worker.js",
+    "static/media/logo.svg": "/EUrban/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/EUrban/index.html",
+    "main.073c9b0a.css.map": "/EUrban/static/css/main.073c9b0a.css.map",
+    "main.a239f640.js.map": "/EUrban/static/js/main.a239f640.js.map",
+    "787.87036bbc.chunk.js.map": "/EUrban/static/js/787.87036bbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a239f640.js"
+  ]
+}
