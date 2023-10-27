@@ -51,7 +51,7 @@ So that I can install the meet app as a shortcut on their device home screen.
    **Then:** can see chart with the number of upcoming events in each city
    ___
 ### Serverless
-By adopting a serverless architecture, the Meet Up is well-positioned to provide an efficient, scalable, and cost-effective solution for processing and visualizing event data. This approach allows the app to grow and adapt to changing user needs and load, all while maintaining optimal performance and cost control.
+By adopting a serverless architecture, the EUrban App is well-positioned to provide an efficient, scalable, and cost-effective solution for processing and visualizing event data. This approach allows the app to grow and adapt to changing user needs and load, all while maintaining optimal performance and cost control.
 
 
    [go to EUrban](https://nnnzrnk.github.io/EUrban/)
