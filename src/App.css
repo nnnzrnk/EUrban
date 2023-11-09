@@ -16,7 +16,7 @@ li {
   list-style-type: none;
 }
 
-button {
+.details-btn {
   border: none;
   background-color: #e07a5f;
   padding: 10px 15px;
@@ -25,7 +25,7 @@ button {
   font-size: medium;
 }
 
-.city-input, .number-input{
+.city, .number-input{
   margin-top: 10px;
   outline: none;
   border: none;
@@ -36,11 +36,11 @@ button {
   color: #3d405b;
   font-size: medium;
 }
-.city-input::placeholder{
+.city::placeholder{
   color: #3d405b;
 }
 
-.city-input:focus, .number-input:focus {
+.city:focus, .number-input:focus {
    border: none;
    border-bottom: #e07a5f solid 1.5px;
    transition: all 0.2s ease-in-out;
