@@ -89,3 +89,11 @@ li {
   margin-top: 1rem;
   padding: 10px 15px;
 }
+
+.alerts-container {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  width: 250px;
+  z-index: 1000;
+}
