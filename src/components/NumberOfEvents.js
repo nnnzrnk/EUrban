@@ -6,6 +6,7 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
         let errorText
         if (isNaN(value) || value <= 0){
            errorText = "It's not a number"
+           setCurrentNOE(0)
         } else {
            errorText = ""
            setCurrentNOE(value)
