@@ -5,7 +5,7 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
 
         let errorText
         if (isNaN(value) || value <= 0){
-           errorText = "It's not a number"
+           errorText = "Oops! Please enter a number greater than 0"
            setCurrentNOE(0)
         } else {
            errorText = ""
