@@ -1,5 +1,6 @@
 import mockData from "./mock-data";
-import { NProgress } from "nprogress";
+import NProgress from "nprogress";
+
 
 // * This function takes an events array, then uses map to create a new array with only locations.
 // * It will also remove all duplicates by creating another new array using the spread operator and spreading a Set.
@@ -47,14 +48,17 @@ export const extractLocations = (events) => {
 
 //   This function will fetch the list of all events
 export const getEvents = async () => {
+  NProgress.start()
+
   if (window.location.href.startsWith("http://localhost")) {
+    NProgress.done()
     return mockData;
   }
 
   if (!navigator.onLine) {
     const events = localStorage.getItem("lastEvents");
     NProgress.done();
-    return events?JSON.parse(events):[];
+    return events ? JSON.parse(events) : [];
   }
 
   const token = await getAccessToken();
