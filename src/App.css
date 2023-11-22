@@ -17,12 +17,24 @@ li {
 }
 
 .details-btn {
-  border: none;
+  background-color: #f4f1de;
+  border: #e07a5f solid 2px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #3d405b;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.details-btn:hover {
   background-color: #e07a5f;
+  border: #e07a5f solid 2px;
   padding: 10px 15px;
   border-radius: 10px;
   color: #f4f1de;
   font-size: medium;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .city, .number-input{
@@ -35,18 +47,19 @@ li {
   background-color: #f4f1de;
   color: #3d405b;
   font-size: medium;
+
 }
 .city::placeholder{
   color: #3d405b;
 }
 
-.city:focus, .number-input:focus {
-   border: none;
-   border-bottom: #e07a5f solid 1.5px;
-   transition: all 0.2s ease-in-out;
+.number-lable {
+  border-bottom: #81b29a solid 1.5px;
+  padding-bottom: 5.5px;
+  margin-right: 1rem;
 }
 
-#city-search, #number-of-events{
+#city-search, #number-input{
   position: relative;
   text-align: center;
 }
@@ -62,6 +75,7 @@ li {
   max-width: 25rem;
   color: #f4f1de;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #event-list {
@@ -81,8 +95,9 @@ li {
 #details{
   position: absolute;
   z-index: 3;
-  background-color: #81b29a;
-  color: #f4f1de;
+  background-color: #f4f1de;
+  border: #81b29a 2px solid;
+  color: #3d405b;
   border-radius: 10px;
   font-size: 18px;
   margin-top: 1rem;
@@ -122,4 +137,7 @@ li {
     grid-template-columns: 1fr;
   }
 }
+
+
+
 

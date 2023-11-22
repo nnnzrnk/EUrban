@@ -15,10 +15,13 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
     }
 
     return (
-        <div id="number-of-events">
-            <input type="text" defaultValue="32" className="number-input" onChange={handleInputChanged}/>
+        <div id="number-input">
+            <label className="number-lable" for="noe">Displayed events: </label>
+            <input id="noe" type="number" min="1" max='32' defaultValue="32" className="number-input" onChange={handleInputChanged}/>
         </div>
     )
 }
 
 export default NumberOfEvents
+
+// {/* <input type="text" defaultValue="32" className="number-input" onChange={handleInputChanged}/> */}
